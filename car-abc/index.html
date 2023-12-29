@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent A Car</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  </head>
+<body>
+    <section class="primary-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-10">
+                   <div class="info">
+                    <ul>
+                        <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                        <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+                    </ul>
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="socials">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-header">
+        <nav class="navbar navbar-expand-lg ">
+            <!-- bg-body-tertiary -->
+            <div class="container" style="padding: 0px 40px;">
+              <a class="navbar-brand" href="#">
+               <div class="logo">
+                <img src="./assets/imgs/logo.png" alt="">
+               </div>
+              </a>
+              <div class="navigation">
+                <i class="fa-regular fa-user"></i>
+                <img class="mob_icon" src="./assets/imgs/menu.png" data-bs-toggle="offcanvas" data-bs-target="#menuRight" aria-controls="menuRight">
+              </div>
+              <button class="hide navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="hide collapse navbar-collapse" id="navbarText"  style="justify-content: space-around;">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./faq.html">FAQ</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                    <button type="button" class="btn btnprimary"><i class="fa-solid fa-user"></i> Sign In</button>
+                    <button type="button" class="btn btnSecondary"><i class="fa-solid fa-user"></i> Sign Up</button>
+                </span>
+              </div>
+            </div>
+          </nav>
+      
+      
+      
+          
+
+<div class="mobMenu offcanvas offcanvas-end" tabindex="-1" id="menuRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <div class="logo">
+      <img src="./assets/imgs/logo.png" alt="">
+     </div>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="mob-menu">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./faq.html">FAQ</a>
+      </li>
+    </ul>
+    <div class="social-mob">
+               <!-- <div class="info">
+                <ul>
+                    <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                    <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+                </ul>
+               </div> -->
+               <div class="socials">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+               </div>
+    </div>
+  </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="items item1" >
+                   <div class="item-main" data-aos="fade-up">
+                        <h1>Book Your Car Now</h1>
+                        <p>Free PickUp Services</p>
+                    <button type="button" class="btn btnprimary">Book Now</button>
+
+                   </div>
+                </div>
+                <!-- <img src="./assets/imgs/slider-33.jpg" class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item">
+                <div class="items item2">
+                  <div class="item-main" data-aos="fade-up">
+                            <h1>Book Your Car Now</h1>
+                            <p>Free PickUp Services</p>
+                    <button type="button" class="btn btnprimary">Book Now</button>
+                       </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="items item3">
+                  <div class="item-main" data-aos="fade-up">
+                        <h1>Book Your Car Now</h1>
+                        <p>Free PickUp Services</p>
+                        <button type="button" class="btn btnprimary">Book Now</button>
+                   </div>
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="brands">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-headings" data-aos="fade-right">
+              <h2>Browse by <span>Make</span></h2>
+              <p>Compare Car With Brand</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="center" data-aos="fade-up">
+              <div class="img-wrapper">
+                <a href="#"> <img src="./assets/imgs/audi.png" alt="Image 1"></a>
+              </div>
+              <div class="img-wrapper">
+                <a href="#"> <img src="./assets/imgs/bentley.png" alt="Image 1"></a>
+              </div>
+              <div class="img-wrapper">
+                <a href="#"> <img src="./assets/imgs/ferari.png" alt="Image 1"></a>
+              </div>
+              <div class="img-wrapper">
+                <a href="#"> <img src="./assets/imgs/honda.png" alt="Image 1"></a>
+              </div>
+              <div class="img-wrapper">
+                <a href="#"> <img src="./assets/imgs/lamborghani.png" alt="Image 1"></a>
+              </div>
+              <div class="img-wrapper">
+                <a href="#"> <img src="./assets//imgs/Land-Rover.webp" alt="Image 1"></a>
+              </div>
+              <div class="img-wrapper">
+                <a href="#"> <img src="./assets/imgs/lexus.png" alt="Image 1"></a>
+              </div>
+             
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-headings" data-aos="fade-right">
+              <h2>Cars for <span>Rent</span></h2>
+              <p>Best Car Collection</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul  data-aos="fade-left" class="tabs-nav nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Featured Products</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Popular Cars</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+               <div class="filter-info">
+                <div class="row-custom">
+                  <div class="col-md-6">
+                 <div class="search">
+                  <p>Showing Result</p>
+                  <p>2 Matches Found</p>
+                 </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="filter"><button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                      <img src="./assets//imgs/filtericon.png" alt="">
+                      <span>Filters</span>
+                    </button></div>
+                  </div>
+                </div>
+               </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <!-- data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" -->
+                    <div class="card show-modal" id="openModalBtn" >
+                     <div class="img-wrapper-card">
+                      <img src="./assets//imgs//Ferrari-488-Pista-2022-255x160.png" class="card-img-top" alt="...">
+                     </div>
+                      <div class="card-body">
+                        <div class="cateogries">
+                          <div class="left">
+                            <p>Audi</p>
+                            <p>Economic</p>
+                          </div>
+                          <div class="right">
+                            <img src="./assets/imgs/heart.png" alt="">
+                          </div>
+                        </div>
+                        <div class="title">
+                          <h6>Audi A3</h6>
+                        </div>
+                        <div class="model">
+                          <h4>299 AED</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" >
+                      <div class="img-wrapper-card">
+                       <img src="./assets//imgs/Lamborghini-Urus-2022-255x160.webp" class="card-img-top" alt="...">
+                      </div>
+                       <div class="card-body">
+                         <div class="cateogries">
+                           <div class="left">
+                             <p>Audi</p>
+                             <p>Economic</p>
+                           </div>
+                           <div class="right">
+                             <img src="./assets/imgs/heart.png" alt="">
+                           </div>
+                         </div>
+                         <div class="title">
+                           <h6>Audi A3</h6>
+                         </div>
+                         <div class="model">
+                           <h4>299 AED</h4>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" >
+                      <div class="img-wrapper-card">
+                       <img src="./assets//imgs/Land-Rover-Definder-2022-2023-2-255x160.webp" class="card-img-top" alt="...">
+                      </div>
+                       <div class="card-body">
+                         <div class="cateogries">
+                           <div class="left">
+                             <p>Audi</p>
+                             <p>Economic</p>
+                           </div>
+                           <div class="right">
+                             <img src="./assets/imgs/heart.png" alt="">
+                           </div>
+                         </div>
+                         <div class="title">
+                           <h6>Audi A3</h6>
+                         </div>
+                         <div class="model">
+                           <h4>299 AED</h4>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" >
+                      <div class="img-wrapper-card">
+                       <img src="./assets//imgs/Rolls-Royce-Ghost-2022-2-255x160.webp" class="card-img-top" alt="...">
+                      </div>
+                       <div class="card-body">
+                         <div class="cateogries">
+                           <div class="left">
+                             <p>Audi</p>
+                             <p>Economic</p>
+                           </div>
+                           <div class="right">
+                             <img src="./assets/imgs/heart.png" alt="">
+                           </div>
+                         </div>
+                         <div class="title">
+                           <h6>Audi A3</h6>
+                         </div>
+                         <div class="model">
+                           <h4>299 AED</h4>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" >
+                      <div class="img-wrapper-card">
+                       <img src="./assets//imgs/Range-Rover-Vouge-2023-4-255x160.webp" class="card-img-top" alt="...">
+                      </div>
+                       <div class="card-body">
+                         <div class="cateogries">
+                           <div class="left">
+                             <p>Audi</p>
+                             <p>Economic</p>
+                           </div>
+                           <div class="right">
+                             <img src="./assets/imgs/heart.png" alt="">
+                           </div>
+                         </div>
+                         <div class="title">
+                           <h6>Audi A3</h6>
+                         </div>
+                         <div class="model">
+                           <h4>299 AED</h4>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" >
+                      <div class="img-wrapper-card">
+                       <img src="./assets//imgs/Range-Rover-Velar-2023-3-255x160.webp" class="card-img-top" alt="...">
+                      </div>
+                       <div class="card-body">
+                         <div class="cateogries">
+                           <div class="left">
+                             <p>Audi</p>
+                             <p>Economic</p>
+                           </div>
+                           <div class="right">
+                             <img src="./assets/imgs/heart.png" alt="">
+                           </div>
+                         </div>
+                         <div class="title">
+                           <h6>Audi A3</h6>
+                         </div>
+                         <div class="model">
+                           <h4>299 AED</h4>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" >
+                      <div class="img-wrapper-card">
+                       <img src="./assets//imgs/Land-Rover-Definder-2022-2023-2-255x160.webp" class="card-img-top" alt="...">
+                      </div>
+                       <div class="card-body">
+                         <div class="cateogries">
+                           <div class="left">
+                             <p>Audi</p>
+                             <p>Economic</p>
+                           </div>
+                           <div class="right">
+                             <img src="./assets/imgs/heart.png" alt="">
+                           </div>
+                         </div>
+                         <div class="title">
+                           <h6>Audi A3</h6>
+                         </div>
+                         <div class="model">
+                           <h4>299 AED</h4>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" >
+                      <div class="img-wrapper-card">
+                       <img src="./assets//imgs//Ferrari-488-Pista-2022-255x160.png" class="card-img-top" alt="...">
+                      </div>
+                       <div class="card-body">
+                         <div class="cateogries">
+                           <div class="left">
+                             <p>Audi</p>
+                             <p>Economic</p>
+                           </div>
+                           <div class="right">
+                             <img src="./assets/imgs/heart.png" alt="">
+                           </div>
+                         </div>
+                         <div class="title">
+                           <h6>Audi A3</h6>
+                         </div>
+                         <div class="model">
+                           <h4>299 AED</h4>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="filter-info">
+                  <div class="row-custom">
+                    <div class="col-md-6">
+                   <div class="search">
+                    <p>Showing Result</p>
+                    <p>2 Matches Found</p>
+                   </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="filter"><button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <img src="./assets//imgs/filtericon.png" alt="">
+                        <span>Filters</span>
+                      </button></div>
+                    </div>
+                  </div>
+                 </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card" id="openModalBtn"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                       <div class="img-wrapper-card">
+                        <img src="./assets//imgs//Ferrari-488-Pista-2022-255x160.png" class="card-img-top" alt="...">
+                       </div>
+                        <div class="card-body">
+                          <div class="cateogries">
+                            <div class="left">
+                              <p>Audi</p>
+                              <p>Economic</p>
+                            </div>
+                            <div class="right">
+                              <img src="./assets/imgs/heart.png" alt="">
+                            </div>
+                          </div>
+                          <div class="title">
+                            <h6>Audi A3</h6>
+                          </div>
+                          <div class="model">
+                            <h4>299 AED</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" >
+                        <div class="img-wrapper-card">
+                         <img src="./assets//imgs/Lamborghini-Urus-2022-255x160.webp" class="card-img-top" alt="...">
+                        </div>
+                         <div class="card-body">
+                           <div class="cateogries">
+                             <div class="left">
+                               <p>Audi</p>
+                               <p>Economic</p>
+                             </div>
+                             <div class="right">
+                               <img src="./assets/imgs/heart.png" alt="">
+                             </div>
+                           </div>
+                           <div class="title">
+                             <h6>Audi A3</h6>
+                           </div>
+                           <div class="model">
+                             <h4>299 AED</h4>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" >
+                        <div class="img-wrapper-card">
+                         <img src="./assets//imgs/Land-Rover-Definder-2022-2023-2-255x160.webp" class="card-img-top" alt="...">
+                        </div>
+                         <div class="card-body">
+                           <div class="cateogries">
+                             <div class="left">
+                               <p>Audi</p>
+                               <p>Economic</p>
+                             </div>
+                             <div class="right">
+                               <img src="./assets/imgs/heart.png" alt="">
+                             </div>
+                           </div>
+                           <div class="title">
+                             <h6>Audi A3</h6>
+                           </div>
+                           <div class="model">
+                             <h4>299 AED</h4>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" >
+                        <div class="img-wrapper-card">
+                         <img src="./assets//imgs/Rolls-Royce-Ghost-2022-2-255x160.webp" class="card-img-top" alt="...">
+                        </div>
+                         <div class="card-body">
+                           <div class="cateogries">
+                             <div class="left">
+                               <p>Audi</p>
+                               <p>Economic</p>
+                             </div>
+                             <div class="right">
+                               <img src="./assets/imgs/heart.png" alt="">
+                             </div>
+                           </div>
+                           <div class="title">
+                             <h6>Audi A3</h6>
+                           </div>
+                           <div class="model">
+                             <h4>299 AED</h4>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" >
+                        <div class="img-wrapper-card">
+                         <img src="./assets//imgs/Range-Rover-Vouge-2023-4-255x160.webp" class="card-img-top" alt="...">
+                        </div>
+                         <div class="card-body">
+                           <div class="cateogries">
+                             <div class="left">
+                               <p>Audi</p>
+                               <p>Economic</p>
+                             </div>
+                             <div class="right">
+                               <img src="./assets/imgs/heart.png" alt="">
+                             </div>
+                           </div>
+                           <div class="title">
+                             <h6>Audi A3</h6>
+                           </div>
+                           <div class="model">
+                             <h4>299 AED</h4>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" >
+                        <div class="img-wrapper-card">
+                         <img src="./assets//imgs/Range-Rover-Velar-2023-3-255x160.webp" class="card-img-top" alt="...">
+                        </div>
+                         <div class="card-body">
+                           <div class="cateogries">
+                             <div class="left">
+                               <p>Audi</p>
+                               <p>Economic</p>
+                             </div>
+                             <div class="right">
+                               <img src="./assets/imgs/heart.png" alt="">
+                             </div>
+                           </div>
+                           <div class="title">
+                             <h6>Audi A3</h6>
+                           </div>
+                           <div class="model">
+                             <h4>299 AED</h4>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" >
+                        <div class="img-wrapper-card">
+                         <img src="./assets//imgs/Land-Rover-Definder-2022-2023-2-255x160.webp" class="card-img-top" alt="...">
+                        </div>
+                         <div class="card-body">
+                           <div class="cateogries">
+                             <div class="left">
+                               <p>Audi</p>
+                               <p>Economic</p>
+                             </div>
+                             <div class="right">
+                               <img src="./assets/imgs/heart.png" alt="">
+                             </div>
+                           </div>
+                           <div class="title">
+                             <h6>Audi A3</h6>
+                           </div>
+                           <div class="model">
+                             <h4>299 AED</h4>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" >
+                        <div class="img-wrapper-card">
+                         <img src="./assets//imgs//Ferrari-488-Pista-2022-255x160.png" class="card-img-top" alt="...">
+                        </div>
+                         <div class="card-body">
+                           <div class="cateogries">
+                             <div class="left">
+                               <p>Audi</p>
+                               <p>Economic</p>
+                             </div>
+                             <div class="right">
+                               <img src="./assets/imgs/heart.png" alt="">
+                             </div>
+                           </div>
+                           <div class="title">
+                             <h6>Audi A3</h6>
+                           </div>
+                           <div class="model">
+                             <h4>299 AED</h4>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="counter-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          <div class="heading-wrapper">
+            <div class="main-headings" data-aos="fade-right">
+              <h2>What Have We  <span>Achieved</span></h2>
+              <p>For 25 years, we raising the standard of used car retailing with one of the most innovative and reliable used vehicle programmes ever created.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+           <div class="counter-main">
+            <div class="counter-container">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-car"></i>
+              </div>
+              <div class="counter-wrapper">
+               <div class="counter" data-target="250"></div>
+               <span>LUXURY CARS</span>
+              </div>
+             </div>
+             <div class="counter-container">
+              <div class="icon-wrapper">
+               <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="counter-wrapper">
+               <div class="counter" data-target="5000"></div>
+               <span>VERIFIED CUSTOMES</span>
+              </div>
+             </div>
+             <div class="counter-container">
+              <div class="icon-wrapper">
+               <i class="fa-solid fa-message"></i>
+              </div>
+              <div class="counter-wrapper">
+               <div class="counter" data-target="1200"></div>
+               <span>GOOGLE REVIEWS</span>
+              </div>
+           </div>
+             </div>
+             </div>
+            </div>
+           
+            <!-- <div class="col-md-3">
+              <div class="counter-container">
+                <div>
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="counter-wrapper">
+                <div class="numbers"> <span>2/</span><div class="counter" data-target="7">7</div></div>
+                 <span>CUSTOMER RELATION</span>
+                </div>
+               </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="products blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-headings" data-aos="fade-right">
+              <h2>News &  <span>Article</span></h2>
+              <p>The Latest News Car & Bids</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" >
+              <a href="./detail-blog.html">
+                <div class="img-wrapper-card">
+                  <img src="./assets//imgs/blog2.png" class="card-img-top" alt="...">
+                 </div>
+                  <div class="card-body">
+                    <div class="cateogries">
+                      <div class="left">
+                        <p>Annual Raffle</p>
+                      </div>
+                      
+                    </div>
+                    <div class="title">
+                     <p>RPM Rent A Car is organizing the fifth annual raffle</p>
+                    </div>
+                    <div class="blog-info">
+                     <ul>
+                       <li><span><i class="fa-solid fa-calendar-days"></i></span>
+                       <span>March 8, 2023</span></li>
+                       <li><span><i class="fa-solid fa-comment"></i></span>
+                         <span>No Comments</span></li>
+                     </ul>
+                    </div>
+                  </div>
+              </a>
+             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" >
+              <div class="img-wrapper-card">
+               <img src="./assets//imgs/blog2.png" class="card-img-top" alt="...">
+              </div>
+               <div class="card-body">
+                 <div class="cateogries">
+                   <div class="left">
+                     <p>Annual Raffle</p>
+                   </div>
+                   
+                 </div>
+                 <div class="title">
+                  <p>RPM Rent A Car is organizing the fifth annual raffle</p>
+                 </div>
+                 <div class="blog-info">
+                  <ul>
+                    <li><span><i class="fa-solid fa-calendar-days"></i></span>
+                    <span>March 8, 2023</span></li>
+                    <li><span><i class="fa-solid fa-comment"></i></span>
+                      <span>No Comments</span></li>
+                  </ul>
+                 </div>
+               </div>
+             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" >
+              <div class="img-wrapper-card">
+               <img src="./assets//imgs/blog2.png" class="card-img-top" alt="...">
+              </div>
+               <div class="card-body">
+                 <div class="cateogries">
+                   <div class="left">
+                     <p>Annual Raffle</p>
+                   </div>
+                   
+                 </div>
+                 <div class="title">
+                  <p>RPM Rent A Car is organizing the fifth annual raffle</p>
+                 </div>
+                 <div class="blog-info">
+                  <ul>
+                    <li><span><i class="fa-solid fa-calendar-days"></i></span>
+                    <span>March 8, 2023</span></li>
+                    <li><span><i class="fa-solid fa-comment"></i></span>
+                      <span>No Comments</span></li>
+                  </ul>
+                 </div>
+               </div>
+             </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+
+    <section class="modals">
+<div id="customModal" class="modal-custom">
+  <div class="modal-content">
+   
+    <div class="img-wrapper-detail">
+  <span class="close" id="closeModalBtn">&times;</span>
+
+      <div class="inner">
+      <img src="./assets/imgs/detail.png" alt="">
+      </div>
+     </div> 
+     <div class="product-details">
+      <h4>Range Rover Vouge 2023</h4>
+      <p>12-23-ERET</p>
+
+      <div class="product-specs">
+        <ul>
+          <li>
+            <img src="./assets/imgs/detail1.png" alt="">
+            <span>Super</span>
+          </li>
+          <li>
+            <img src="./assets/imgs/detail2.png" alt="">
+            <span>SUV</span>
+          </li>
+          <li>
+            <img src="./assets/imgs/detail3.png" alt="">
+            <span>Super</span>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <p>Praesent vitae ex sed urna consequat sagittis vel sed mi morbi ac eros sit amet risus bibendum maximus nulla elementum sem eu iaculis <span class="read-more" onclick="addMore();">Read more click…</span></p>
+        
+        <div class="addImages">
+          <div class="row-custom scroll">
+            <div class="col-md-4">
+              <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+            </div>
+          
+          </div>
+        </div>
+     
+      </div>
+
+      <div class="btn-wrapper booknow">
+        <button class="custom-btn">Book Now</button>
+      </div>
+      
+     </div>
+  </div>
+</div>
+    </section>
+
+
+    <section class="filter-area">
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+   <div class="close-menu">
+    <span><img src="./assets/imgs/arrow.png" alt="" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+   </div>
+  <div class="title-menu">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Details</h5>
+  </div>  </div>
+  <div class="offcanvas-body">
+    <form action="#">
+      <div class="type">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="types-car">
+              <h4>Types of Cars</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row-custom">
+         <div class="col-md-4">
+          <div id="card1" class="card">
+            <input type="radio" name="card" id="radio1" checked>
+            <label for="radio1" >
+              <div >
+                <img src="./assets/imgs/typ3.png" alt="">
+                <h5>Economic</h5>
+              </div></label>
+          </div>
+         </div>
+         <div class="col-md-4">
+          <div id="card2" class="card">
+            <input type="radio" name="card" id="radio2">
+            <label for="radio2" >
+              <div>
+                <img src="./assets/imgs/type2.png" alt="">
+                <h5>Pick Up</h5>
+              </div></label></label>
+          </div>
+         </div>
+  
+         <div class="col-md-4">
+          <div id="card3" class="card">
+            <input type="radio" name="card" id="radio3">
+            <label for="radio3" >
+              <div >
+                <img src="./assets/imgs/type1.png" alt="">
+                <h5>Standard</h5>
+              </div></label></label>
+          </div>
+         </div>
+          
+        
+        </div>
+      </div>
+  
+  
+      <div class="vehciclesType">
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+              <h4>Vehicle Type</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row-custom">
+         <div class="col-md-4">
+          <div id="card1" class="card">
+            <input type="radio" name="vehciclesType" id="vehciclesType1" checked>
+            <label for="vehciclesType1" >
+              <div >
+                <h5>Luxury</h5>
+              </div></label>
+          </div>
+         </div>
+         <div class="col-md-4">
+          <div id="card2" class="card">
+            <input type="radio" name="vehciclesType" id="vehciclesType2">
+            <label for="vehciclesType2" >
+              <div>
+                <h5>Sport</h5>
+              </div></label></label>
+          </div>
+         </div>
+  
+         <div class="col-md-4">
+          <div id="card3" class="card">
+            <input type="radio" name="vehciclesType" id="vehciclesType3">
+            <label for="vehciclesType3" >
+              <div >
+                <h5>Economic</h5>
+              </div></label></label>
+          </div>
+         </div>
+          
+        
+        </div>
+      </div>
+  
+      <div class="pirceRange">
+        <div class="row">
+          <div class="col-md-12">
+              <div class="wrapper">
+            <div class="main-price">
+              <div class="priceW heading">
+                <h4>Price Range</h4>
+              </div>
+              <div class="priceW price-input">
+                <div class="field">
+                  <input type="number" class="input-min" value="2500">
+                  <span>AED</span>
+                </div>
+                <div class="separator">-</div>
+                <div class="field">
+                  <input type="number" class="input-max" value="7500">
+                  <span>AED</span>
+                </div>
+              </div>
+            </div>
+              <div class="slider-wrapper-main">
+               <div class="range-slider">
+                <div class="slider">
+                  <div class="progress"></div>
+                </div>
+                <div class="range-input">
+                  <input type="range" class="range-min" min="0" max="4000" value="0" step="100">
+                  <input type="range" class="range-max" min="0" max="4000" value="4000" step="100">
+                </div>
+               </div>
+              </div>
+              </div>
+          
+          </div>
+        </div>
+      </div>
+  
+      <div class="numberOfseats">
+        <div class="row">
+          <div class="col-md-12">
+            <div >
+              <h4>Number Of Seats</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+         <div class="col-md-12">
+          <ul>
+            <li>
+              <div id="card1" class="card">
+                <input type="radio" name="noOfSeat" id="noOfSeatany" checked>
+                <label class="noofSeatany" for="noOfSeatany" >
+                  <div>
+                    <h5>Any</h5>
+                  </div></label>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-2">
+                <div id="card2" class="card">
+                  <input type="radio" name="noOfSeat" id="noOfSeat1">
+                  <label for="noOfSeat1" >
+                    <div>
+                      <h5>1</h5>
+                    </div></label></label>
+                </div>
+               </div>
+            </li>
+            <li>
+              <div class="col-md-2">
+                <div id="card3" class="card">
+                  <input type="radio" name="noOfSeat" id="noOfSeat2">
+                  <label for="noOfSeat2" >
+                    <div >
+                      <h5>2</h5>
+                    </div></label></label>
+                </div>
+               </div>
+            </li>
+            <li>
+              <div class="col-md-2">
+                <div id="card3" class="card">
+                  <input type="radio" name="noOfSeat" id="noOfSeat3">
+                  <label for="noOfSeat3" >
+                    <div >
+                      <h5>3</h5>
+                    </div></label></label>
+                </div>
+               </div>
+            </li>
+            <li>
+              <div class="col-md-2">
+                <div id="card3" class="card">
+                  <input type="radio" name="noOfSeat" id="noOfSeat4">
+                  <label for="noOfSeat4" >
+                    <div >
+                      <h5>4</h5>
+                    </div></label></label>
+                </div>
+               </div>
+            </li>
+            <li>
+              <div class="col-md-2">
+                <div id="card3" class="card">
+                  <input type="radio" name="noOfSeat" id="noOfSeat5">
+                  <label for="noOfSeat5" >
+                    <div >
+                      <h5>5</h5>
+                    </div></label></label>
+                </div>
+               </div>
+            </li>
+            <li>
+              <div class="col-md-2">
+                <div id="card3" class="card">
+                  <input type="radio" name="noOfSeat" id="noOfSeat6">
+                  <label for="noOfSeat6" >
+                    <div >
+                      <h5>6</h5>
+                    </div></label></label>
+                </div>
+               </div>
+            </li>
+          </ul>
+         </div>
+        </div>
+      </div>
+  
+      <div class="sort">
+        <div class="row">
+         <div class="col-md-12">
+          <div id="card1" class="card">
+            <input type="radio" name="sort" id="sortAZ" >
+            <label for="sortAZ" >
+              <div >
+                <h5>Sort by A-Z</h5>
+              </div></label>
+          </div>
+         </div>
+         <div class="col-md-12">
+          <div id="card1" class="card">
+            <input type="radio" name="sort" id="sortDefault" >
+            <label for="sortDefault" >
+              <div >
+                <h5>Sort by default</h5>
+              </div></label>
+          </div>
+         </div>
+          
+        
+        </div>
+      </div>
+         <div class="btn-wrapper booknow">
+          <button class="custom-btn" >SEE FILTERS</button>
+        </div>
+    </form>
+
+    </div>
+  </div>
+</div>
+    </section>
+
+
+    <div class="bottom-sheet">
+      <div class="sheet-overlay"></div>
+      <div class="content">
+        <div class="header">
+          <div class="drag-icon"><span></span></div>
+        </div>
+        <div class="body">
+          <div class="img-wrapper-detail">
+            <div class="inner">
+            <img src="./assets/imgs/detail.png" alt="">
+            </div>
+           </div> 
+           <div class="product-details">
+            <h4>Range Rover Vouge 2023</h4>
+            <p>12-23-ERET</p>
+      
+            <div class="product-specs">
+              <ul>
+                <li>
+                  <img src="./assets/imgs/detail1.png" alt="">
+                  <span>Super</span>
+                </li>
+                <li>
+                  <img src="./assets/imgs/detail2.png" alt="">
+                  <span>SUV</span>
+                </li>
+                <li>
+                  <img src="./assets/imgs/detail3.png" alt="">
+                  <span>Super</span>
+                </li>
+              </ul>
+            </div>
+            <div class="description">
+              <p>Praesent vitae ex sed urna consequat sagittis vel sed mi morbi ac eros sit amet risus bibendum maximus nulla elementum sem eu iaculis <span class="read-more" onclick="addMoreMobile();">Read more click...</span></p>
+              
+              <div class="addImages" id="addImages-mob">
+                <div class="row-custom scroll">
+                  <div class="col-md-4">
+                    <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+                  </div>
+                
+                </div>
+              </div>
+           
+            </div>
+      
+            <div class="btn-wrapper booknow">
+              <button class="custom-btn">Book Now</button>
+            </div>
+            
+           </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- <div class="mob-btm-Menu offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <div class="offcanvas-body large">
+        <div class="img-wrapper-detail">
+              <div class="inner">
+              <img src="./assets/imgs/detail.png" alt="">
+              </div>
+             </div> 
+             <div class="product-details">
+              <h4>Range Rover Vouge 2023</h4>
+              <p>12-23-ERET</p>
+        
+              <div class="product-specs">
+                <ul>
+                  <li>
+                    <img src="./assets/imgs/detail1.png" alt="">
+                    <span>Super</span>
+                  </li>
+                  <li>
+                    <img src="./assets/imgs/detail2.png" alt="">
+                    <span>SUV</span>
+                  </li>
+                  <li>
+                    <img src="./assets/imgs/detail3.png" alt="">
+                    <span>Super</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="description">
+                <p>Praesent vitae ex sed urna consequat sagittis vel sed mi morbi ac eros sit amet risus bibendum maximus nulla elementum sem eu iaculis <span class="read-more" onclick="addMoreMobile();">Read more click...</span></p>
+                
+                <div class="addImages" id="addImages-mob">
+                  <div class="row-custom scroll">
+                    <div class="col-md-4">
+                      <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./assets/imgs/Ferrari-488-Pista-2022-255x160.png" alt="">
+                    </div>
+                  
+                  </div>
+                </div>
+             
+              </div>
+        
+              <div class="btn-wrapper booknow">
+                <button class="custom-btn">Book Now</button>
+              </div>
+              
+             </div>
+      </div>
+    </div> -->
+
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Navigation -->
+          <div class="col-md-12 order1">
+            <div class="footer-navigation">
+              <ul>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <li><a href="">LATEST NEWS</a></li>
+                <li><a href="">OUR CARS</a></li>
+                <li><a href="">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+        
+          <!-- Logo -->
+          <div class="col-md-12 order2">
+            <div class="footerlogo logo">
+              <a href="">
+                <img src="./assets/imgs/logo.png" alt="">
+              </a>
+            </div>
+          </div>
+          </div>
+        
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-menu">
+            <ul class="tt-list-info">
+              <li>
+                <i class="fa fa-location-dot"></i>
+                3261 ANMOORE ROAD, BROOKLYN, NY 11230			</li>
+              <li>
+                        <a href="tel:+01 123 456 78">
+                  <i class="fa fa-phone"></i>
+                  +01 123 456 78				</a>
+                      </li>
+              <li>
+                <a href="mailto:INFO@YOUREMAL.COM">
+                  <i class="fa fa-envelope"></i>
+                  INFO@YOUREMAL.COM				</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-menu">
+                <h6 class="tt-ttile"><i class="fa-solid fa-clock"></i>Sales Department</h6>
+                <ul>
+                  <li>Mon-Fri: 8:00 am – 5:00 pm
+                <br>Sat-Sun: 11:00 am – 16:00 pm</li>
+                  <li>
+                    Sunday is closed					</li>
+                </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-menu">
+              <h6 class="tt-ttile"><i class="fa-solid fa-clock"></i>Service Department</h6>
+              <ul>
+                <li>Mon-Fri: 8:00 am – 5:00 pm
+            <br>Sat-Sun: 11:00 am – 16:00 pm</li>
+                <li>
+                  Sunday is closed					</li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-menu">
+            <form ><h6 class="tt-ttile"><i class="fa fa-envelope"></i>NEWSLETTER</h6>    
+              <div class="form-group">
+                <input type="text" name="EMAIL" class="form-control" placeholder="Enter your email">
+              </div>
+              <button type="button" class="btn btnprimary">SUBSCRIBE</button>
+                                      </form>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+    <section class="copyright">
+      <p>All Right Reserved © COPYRIGHT <span id="year"></span></p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <!-- <script>
+     AOS.init({
+  duration: 1200,
+})
+
+    </script> -->
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

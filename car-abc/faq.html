@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rent A Car</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+      </head>
+<body>
+    <section class="primary-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-10">
+                   <div class="info">
+                    <ul>
+                        <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                        <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+                    </ul>
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="socials">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-header">
+        <nav class="navbar navbar-expand-lg ">
+            <!-- bg-body-tertiary -->
+            <div class="container" style="padding: 0px 40px;">
+              <a class="navbar-brand" href="#">
+               <div class="logo">
+                <img src="./assets/imgs/logo.png" alt="">
+               </div>
+              </a>
+              <div class="navigation">
+                <i class="fa-regular fa-user"></i>
+                <img class="mob_icon" src="./assets/imgs/menu.png" data-bs-toggle="offcanvas" data-bs-target="#menuRight" aria-controls="menuRight">
+              </div>
+              <button class="hide navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="hide collapse navbar-collapse" id="navbarText"  style="justify-content: space-around;">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./faq.html">FAQ</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                    <button type="button" class="btn btnprimary"><i class="fa-solid fa-user"></i> Sign In</button>
+                    <button type="button" class="btn btnSecondary"><i class="fa-solid fa-user"></i> Sign Up</button>
+                </span>
+              </div>
+            </div>
+          </nav>
+      
+      
+      
+          
+
+<div class="mobMenu offcanvas offcanvas-end" tabindex="-1" id="menuRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <div class="logo">
+      <img src="./assets/imgs/logo.png" alt="">
+     </div>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="mob-menu">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./faq.html">FAQ</a>
+      </li>
+    </ul>
+    <div class="social-mob">
+               <!-- <div class="info">
+                <ul>
+                    <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                    <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+                </ul>
+               </div> -->
+               <div class="socials">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+               </div>
+    </div>
+  </div>
+        </div>
+    </section>
+    <section class="banner faq-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bannerText">
+              <h4>FAQ</h4>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="faq-detail">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Buying a car with Car Leader</h4>
+            <section class="faq_contentt">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="faqs">
+                      <h4>Frequently Asked Questions</h4>
+                    </div>
+                    <div class="faqs_questions">
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>How long does Headlights Restoration service take?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          It depends on the size and condition, but it typically takes 45 to 90 minutes to complete. If the
+                          condition is severe, it’ll take longer.
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>Can you restore any headlights?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          Like many things, once the headlights get to a certain point, there is only so much we can do to restore
+                          them to a like-new condition. Your headlights can look better after we’re done, but there can also be
+                          permanent damage i.e high beam effect or cracks on headlights surface.
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>Why do my headlights' lenses get affected?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          Your headlights, just like your paint, have a clear coat on them. As the sun beams hit on it week after
+                          week, the clear coat starts to deteriorate. Eventually what was the clear coat turns into an ugly yellow
+                          layer gunk.
+                        </p>
+                        <p>Considering the heat that sun produces, your headlights are exposed to maximum heat- and if you park
+                          your car directly in the sun for most of the day, that’s only going to add to the damage. Because of the
+                          material of the headlights, the clear coat on them don’t last nearly as much as the clear coat on the
+                          paint.</p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>How do I keep my headlights looking good?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          It can be a bit tricky. Typical waxes and sealants will only protect your car for so long. If you park
+                          your car in the shade most of the time, then they’ll simply last longer than if you park outside in the
+                          sun most of the time
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>How long does the Windshield Polishing service take?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          Windshield Polishing Service takes approximately 60 to 90 minutes approximately, depending on condition
+                          and size. If the condition is severe, it’ll take longer.
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>Where do I get expert windshield polishing service in Karachi?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          If you’re searching for professional windshield polishing service in Karachi then head to The Car Care.
+                          Our team is committed to excellence! To learn more about our extensive services or if you have any other
+                          questions about windshield polishing in Karachi , don’t hesitate to give us a call at +92-315-8828131.
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>Can scratches be removed from my car's windshield without my windscreen having to be replaced?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          All the swirls marks, dullness, and reflection will completely remove after polishing your car’s
+                          windshield. Your windshield will look better after polishing, you’ll never face any kind night vision
+                          problem, and however there can also be some permanent and deep scratches and damages which cannot be fix
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>What is detailing?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          Detailing is a specialized process of keeping your vehicle appearance as close to showroom condition as
+                          possible. Our aim is to have your car looking the way it did when you drove it off the lot.
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>Is there any extra charge for SUVs , Vans ,Exotic and Classic cars?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          Charges are higher due to extra work and attention of work required for these vehicles.
+                        </p>
+                      </div>
+          
+                      <div class="accordion">
+                        <div class="icon"></div>
+                        <h5>How Can I pay?</h5>
+                      </div>
+                      <div class="panel">
+                        <p>
+                          We accept both cash and online bank transfer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+   </section> 
+  
+   <section class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Navigation -->
+        <div class="col-md-12 order1">
+          <div class="footer-navigation">
+            <ul>
+              <li><a href="">ABOUT US</a></li>
+              <li><a href="">CONTACT US</a></li>
+              <li><a href="">LATEST NEWS</a></li>
+              <li><a href="">OUR CARS</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <!-- Logo -->
+        <div class="col-md-12 order2">
+          <div class="footerlogo logo">
+            <a href="">
+              <img src="./assets/imgs/logo.png" alt="">
+            </a>
+          </div>
+        </div>
+        </div>
+      
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer-menu">
+          <ul class="tt-list-info">
+            <li>
+              <i class="fa fa-location-dot"></i>
+              3261 ANMOORE ROAD, BROOKLYN, NY 11230			</li>
+            <li>
+                      <a href="tel:+01 123 456 78">
+                <i class="fa fa-phone"></i>
+                +01 123 456 78				</a>
+                    </li>
+            <li>
+              <a href="mailto:INFO@YOUREMAL.COM">
+                <i class="fa fa-envelope"></i>
+                INFO@YOUREMAL.COM				</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-menu">
+              <h6 class="tt-ttile"><i class="fa-solid fa-clock"></i>Sales Department</h6>
+              <ul>
+                <li>Mon-Fri: 8:00 am – 5:00 pm
+              <br>Sat-Sun: 11:00 am – 16:00 pm</li>
+                <li>
+                  Sunday is closed					</li>
+              </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-menu">
+            <h6 class="tt-ttile"><i class="fa-solid fa-clock"></i>Service Department</h6>
+            <ul>
+              <li>Mon-Fri: 8:00 am – 5:00 pm
+          <br>Sat-Sun: 11:00 am – 16:00 pm</li>
+              <li>
+                Sunday is closed					</li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-menu">
+          <form ><h6 class="tt-ttile"><i class="fa fa-envelope"></i>NEWSLETTER</h6>    
+            <div class="form-group">
+              <input type="text" name="EMAIL" class="form-control" placeholder="Enter your email">
+            </div>
+            <button type="button" class="btn btnprimary">SUBSCRIBE</button>
+                                    </form>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section class="copyright">
+    <p>All Right Reserved © COPYRIGHT <span id="year"></span></p>
+  </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

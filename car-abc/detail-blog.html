@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rent A Car</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+      </head>
+<body>
+    <section class="primary-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-10">
+                   <div class="info">
+                    <ul>
+                        <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                        <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+                    </ul>
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="socials">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-header">
+      <nav class="navbar navbar-expand-lg ">
+          <!-- bg-body-tertiary -->
+          <div class="container" style="padding: 0px 40px;">
+            <a class="navbar-brand" href="#">
+             <div class="logo">
+              <img src="./assets/imgs/logo.png" alt="">
+             </div>
+            </a>
+            <div class="navigation">
+              <i class="fa-regular fa-user"></i>
+              <img class="mob_icon" src="./assets/imgs/menu.png" data-bs-toggle="offcanvas" data-bs-target="#menuRight" aria-controls="menuRight">
+            </div>
+            <button class="hide navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="hide collapse navbar-collapse" id="navbarText"  style="justify-content: space-around;">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+                </li>
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./faq.html">FAQ</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                  <button type="button" class="btn btnprimary"><i class="fa-solid fa-user"></i> Sign In</button>
+                  <button type="button" class="btn btnSecondary"><i class="fa-solid fa-user"></i> Sign Up</button>
+              </span>
+            </div>
+          </div>
+        </nav>
+    
+    
+    
+        
+
+<div class="mobMenu offcanvas offcanvas-end" tabindex="-1" id="menuRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header">
+  <div class="logo">
+    <img src="./assets/imgs/logo.png" alt="">
+   </div>
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+  <ul class="mob-menu">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+    </li>
+   
+    <li class="nav-item">
+      <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./faq.html">FAQ</a>
+    </li>
+  </ul>
+  <div class="social-mob">
+             <!-- <div class="info">
+              <ul>
+                  <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                  <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                  <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+              </ul>
+             </div> -->
+             <div class="socials">
+              <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+              </ul>
+             </div>
+  </div>
+</div>
+      </div>
+  </section>
+    <section class="banner blog-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bannerText">
+              <h4>RPM RENT A CAR IS ORGANIZING THE FIFTH ANNUAL RAFFLE</h4>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="blog-detail">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="detail">
+            <h2>RPM Rent A Car is organizing the fifth annual raffle</h4>
+            <img src="./assets/imgs/blog.jpg" alt="">
+            <div class="blog-text">
+              <p>An exclusive chance to win a 2022 Lexus LX 600 or AED 570,000 in cash. The second winner will win about AED 57,000 in cash, and the third winner will win AED 5,700 .</p>
+           <p>ubai, United Arab Emirates:RPM Rent A Car,  the Dubai-based company, announced  organizing  the fifth annual draw on prizes worth more than Dhs630,000 during a unprecedented celebration on Sunday, October 2, 2022.
+
+            “We are keen to continue our promotional campaigns periodically by organizing competitions, offers and offering valuable prizes in order to attract more customers,” said the Emirati businessman Mohammed Al Marzouqi, CEO of RPM Rent A Car.” This event is organized for the fifth year in a row,” he added.
+            
+            Al Marzouqi indicated that the draw will be done under the supervision of the Department of Economic Development in Dubai,DED, represented by the Commercial Control and Consumer Protection section, with permit No. (1206230) and permit No. (1228050).</p>
+            <p>Al Marzouqi stated that there is still an attractive opportunity to participate in the draw now, both inside and outside the UAE, as participation requires the purchase of a voucher from RBM in the amount of at least Dhs299 to compete for one of the three prizes.
+
+              He revealed that the first grand prize winner will receive a Lexus LX 600 – 2022 model, or Dhs570,000 in cash, while the second winner will win about Dhs57,000  in cash, and the third winner will win Dhs5,700 .
+              
+              Al Marzouqi indicated that the  voucher holder can  benefit from its value up to a period of two months from the date of the prize announcement, and it will be valid until October 15, 2022, stressing that more than one voucher can be purchased to share the draw, the greater the number of vouchers, the greater the chance of winning will be.
+              
+              </p>
+            </div>
+            <img src="./assets/imgs/blog2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+   </section> 
+  
+   <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <h4>Contact</h4>
+            <li><a href="">IT@rpmcar.ae</a></li>
+            <li><a href="">+971 54 400 0015</a></li>
+            <li><a href="">600 5 600 30</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <h4>Info</h4>
+            <li><a href="">About Us
+              </a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Latest News</a></li>
+              <li>About Us</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="add">
+            <h4>Address</h4>
+            <li><a href="">AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+            <li><a href="">Shop # 1, Abu Hail Residence, Abu Hail, Deira Dubai UAE</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyRight">
+            <p>RPM Car Rental © <span id="year"></span>. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

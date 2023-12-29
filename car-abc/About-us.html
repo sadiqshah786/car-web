@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rent A Car</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+      </head>
+<body>
+    <section class="primary-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-10">
+                   <div class="info">
+                    <ul>
+                        <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                        <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+                    </ul>
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="socials">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-header">
+        <nav class="navbar navbar-expand-lg ">
+            <!-- bg-body-tertiary -->
+            <div class="container" style="padding: 0px 40px;">
+              <a class="navbar-brand" href="#">
+               <div class="logo">
+                <img src="./assets/imgs/logo.png" alt="">
+               </div>
+              </a>
+              <div class="navigation">
+                <i class="fa-regular fa-user"></i>
+                <img class="mob_icon" src="./assets/imgs/menu.png" data-bs-toggle="offcanvas" data-bs-target="#menuRight" aria-controls="menuRight">
+              </div>
+              <button class="hide navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="hide collapse navbar-collapse" id="navbarText"  style="justify-content: space-around;">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./faq.html">FAQ</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                    <button type="button" class="btn btnprimary"><i class="fa-solid fa-user"></i> Sign In</button>
+                    <button type="button" class="btn btnSecondary"><i class="fa-solid fa-user"></i> Sign Up</button>
+                </span>
+              </div>
+            </div>
+          </nav>
+      
+      
+      
+          
+
+<div class="mobMenu offcanvas offcanvas-end" tabindex="-1" id="menuRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <div class="logo">
+      <img src="./assets/imgs/logo.png" alt="">
+     </div>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="mob-menu">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./About-us.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./our-cars.html"> OUR CARS</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="./latest-news.html">LATEST NEWS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./faq.html">FAQ</a>
+      </li>
+    </ul>
+    <div class="social-mob">
+               <!-- <div class="info">
+                <ul>
+                    <li><a href="tel:1234567"><i class="fa-solid fa-phone"></i> +123456789</a></li>
+                    <li><a href="mailto:test@test.com"><i class="fa-solid fa-envelope"></i> @test.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i> AL- ZOMORRUD STREET, AL QUOZ 3, SHEIKH ZAYED ROAD, DUBAI UAE</a></li>
+                </ul>
+               </div> -->
+               <div class="socials">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+               </div>
+    </div>
+  </div>
+        </div>
+    </section>
+    <section class="banner about-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bannerText">
+              <h4>ABOUT US</h4>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="about blog-detail">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="main-headings" data-aos="fade-right">
+            <h2>Our Reputation Speaks
+              for <br><span>Itself</span></h2>
+            <p>CaLeader has been raising the standard of used car retailing with one of the most innovative and reliable used vehicle programmes ever created. A comprehensive range of benefits as standard has evolved over time and, today, drivers can leave the forecourt with total reassurance and peace of mind.</p>
+          <p>For used vehicles, we calculate a fair retail price based on a detailed analysis of comparable current and previous car listings in a given market.</p>
+          <ul class="tt-list01">
+            <li><a href="#">Guaranteed lien-free vehicles</a></li>
+            <li><a href="#">Contribute to a compensation fund for your protection</a></li>
+            <li><a href="#">30-day dealer warranty</a></li>
+            <li><a href="#">All vehicles serviced</a></li>
+         </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="about-img">
+            <img class="img1" src="./assets//imgs/about1.jpg" alt="">
+            <img class="img2" src="./assets//imgs/about2.jpg" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+   </section> 
+
+   <section class="reason about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Reasons to Buy From Our Store</h2>
+        </div>
+      <div class="col-md-6">
+        <div class="item">
+          <div class="tt-col-icon">
+            <div class="tt-icon">
+              <i class="fa fa-car"></i>
+            </div>
+          </div>
+          <div class="tt-col-description">
+                  <h6 class="tt-title">Certified vehicles that look like new</h6>
+                            <p>	Each vehicle is detailed and washed to guarantee that you feel like the first owner.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="item">
+          <div class="tt-col-icon">
+            <div class="tt-icon">
+              <i class="fa-solid fa-tag"></i>
+            </div>
+          </div>
+          <div class="tt-col-description">
+                  <h6 class="tt-title">Certified vehicles that look like new</h6>
+                            <p>	Each vehicle is detailed and washed to guarantee that you feel like the first owner.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="item">
+          <div class="tt-col-icon">
+            <div class="tt-icon">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+            </div>
+          </div>
+          <div class="tt-col-description">
+                  <h6 class="tt-title">Free Autocheck Vehicle History Report</h6>
+                            <p>	Each vehicle is detailed and washed to guarantee that you feel like the first owner.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="item">
+          <div class="tt-col-icon">
+            <div class="tt-icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+          </div>
+          <div class="tt-col-description">
+                  <h6 class="tt-title">3-Month or 3,000 Miles Limited Warranty</h6>
+                            <p>	Each vehicle is detailed and washed to guarantee that you feel like the first owner.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+   </section>
+
+   <section class="about mission">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="main-heading">
+            <h2>Experience the Difference</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-mission-tab" data-bs-toggle="pill" data-bs-target="#pills-mission" type="button" role="tab" aria-controls="pills-mission" aria-selected="true">Mission & Vision</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-vision-tab" data-bs-toggle="pill" data-bs-target="#pills-vision" type="button" role="tab" aria-controls="pills-vision" aria-selected="false">Core Values</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Guiding Principles</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-mission" role="tabpanel" aria-labelledby="pills-mission-tab">
+             <div class="main">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mission">
+                      <h4>Mission</h4>
+                      <p>
+                        Mission
+                        Our Mission is to simply be the best in every area of our business. We will accomplish this by providing the most exceptional customer experience, being the best place to work, and strongly supporting our community.</p>
+                    </div>
+                    <div class="mission">
+                      <h4>Vision</h4>
+                      <p>
+                        CaLeader will be the number one DMS supplier in terms of market share, or market share growth, in every market in which we choose to compete. The success of our customers will be the ultimate measure of the uncompromising quest for excellence by all our people.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img">
+                      <img src="./assets/imgs/tabs-img-01-1.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+            </div>
+            <div class="tab-pane fade" id="pills-vision" role="tabpanel" aria-labelledby="pills-vision-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mission">
+                    <h4>Core Values</h4>
+                   <ol>
+                    <li>Honesty and Integrity – We will abide by our code of ethics in all our dealings with our customers and with each other. We will be honest and truthful in all our dealings at all times.</li>
+                  <li>Respect – We will treat our customers and each other with respect. This means listening to their opinions and accepting the right of others to hold differing views.</li>
+                <li>Fairness – We will treat customers and staff at all times in a fair and equitable manner.</li>  
+                </ol>
+                  </div>
+                
+                </div>
+                <div class="col-md-6">
+                  <div class="img">
+                    <img src="./assets/imgs/tabs-img-02-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mission">
+                    <h4>Guiding Principles</h4>
+                   <ol>
+                    <li>
+                      <h6>Quality and Value Come First</h6>
+                      <p>To achieve customer satisfaction, the quality and value of our products and services are our number one priority.</p>
+                      </li>
+                      <li>
+                        <h6>Quality and Value Come First</h6>
+                        <p>To achieve customer satisfaction, the quality and value of our products and services are our number one priority.</p>
+                        </li>
+                        <li>
+                          <h6>Quality and Value Come First</h6>
+                          <p>To achieve customer satisfaction, the quality and value of our products and services are our number one priority.</p>
+                          </li>
+                </ol>
+                  </div>
+                
+                </div>
+                <div class="col-md-6">
+                  <div class="img">
+                    <img src="./assets/imgs/tabs-img-03-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- <section class="about  banner  grantee">
+    <div class="centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-heading">
+             <div class="innerDiv">
+              
+              <h2>Vehicle search satisfaction guaranteed</h2>
+              <p>With history-checked cars and innovative search options,  <br> there are many ways CaLeader can help you to find your next vehicle.</p>
+              <button type="button" class="btn btnprimary">Book a Car</button>
+             </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section> -->
+  
+   <section class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Navigation -->
+        <div class="col-md-12 order1">
+          <div class="footer-navigation">
+            <ul>
+              <li><a href="">ABOUT US</a></li>
+              <li><a href="">CONTACT US</a></li>
+              <li><a href="">LATEST NEWS</a></li>
+              <li><a href="">OUR CARS</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <!-- Logo -->
+        <div class="col-md-12 order2">
+          <div class="footerlogo logo">
+            <a href="">
+              <img src="./assets/imgs/logo.png" alt="">
+            </a>
+          </div>
+        </div>
+        </div>
+      
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer-menu">
+          <ul class="tt-list-info">
+            <li>
+              <i class="fa fa-location-dot"></i>
+              3261 ANMOORE ROAD, BROOKLYN, NY 11230			</li>
+            <li>
+                      <a href="tel:+01 123 456 78">
+                <i class="fa fa-phone"></i>
+                +01 123 456 78				</a>
+                    </li>
+            <li>
+              <a href="mailto:INFO@YOUREMAL.COM">
+                <i class="fa fa-envelope"></i>
+                INFO@YOUREMAL.COM				</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-menu">
+              <h6 class="tt-ttile"><i class="fa-solid fa-clock"></i>Sales Department</h6>
+              <ul>
+                <li>Mon-Fri: 8:00 am – 5:00 pm
+              <br>Sat-Sun: 11:00 am – 16:00 pm</li>
+                <li>
+                  Sunday is closed					</li>
+              </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-menu">
+            <h6 class="tt-ttile"><i class="fa-solid fa-clock"></i>Service Department</h6>
+            <ul>
+              <li>Mon-Fri: 8:00 am – 5:00 pm
+          <br>Sat-Sun: 11:00 am – 16:00 pm</li>
+              <li>
+                Sunday is closed					</li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-menu">
+          <form ><h6 class="tt-ttile"><i class="fa fa-envelope"></i>NEWSLETTER</h6>    
+            <div class="form-group">
+              <input type="text" name="EMAIL" class="form-control" placeholder="Enter your email">
+            </div>
+            <button type="button" class="btn btnprimary">SUBSCRIBE</button>
+                                    </form>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section class="copyright">
+    <p>All Right Reserved © COPYRIGHT <span id="year"></span></p>
+  </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
